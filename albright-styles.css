@@ -8,6 +8,26 @@ body {
   color: #333;
   background-color: #eee;
   font-size: 11pt;
+/*   text-align: justify; */
+}
+
+img {
+  margin: 1em auto;
+  display: block;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 2px;
+  width: 200px;
+  height: 200px;
+}
+
+a, a:link, a:visited {
+  color: #339;
+}
+
+a:active {
+  color: #33f;
 }
 
 @media (min-width: 768px) {
@@ -21,12 +41,11 @@ body {
     margin: 1em auto; 
     padding: 1em;
   }
-}
-
-a, a:link, a:visited {
-  color: #339;
-}
-
-a:active {
-  color: #33f;
+  
+  @media (min-width: 400px) {
+    img {
+      float: right;
+      margin: 0 0 1em 1em;
+    }
+  }
 }
