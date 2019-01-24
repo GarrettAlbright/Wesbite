@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://albright.pro/sitemap.xml
