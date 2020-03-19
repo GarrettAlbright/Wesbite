@@ -29,7 +29,9 @@ a:active {
 
 @media (min-width: 768px) {
   html {
-    background-color: white;
+    background-color: #eee;
+    min-height: 100vh;
+    background-image: linear-gradient(#eee, #ccc);
   }
   body {
     border-radius: 6pt;
